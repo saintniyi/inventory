@@ -125,3 +125,4 @@ D:\ASPNetProjects\Inventory\InventoryWeb\obj\Debug\net9.0\InventoryWeb.pdb
 D:\ASPNetProjects\Inventory\InventoryWeb\obj\Debug\net9.0\InventoryWeb.genruntimeconfig.cache
 D:\ASPNetProjects\Inventory\InventoryWeb\obj\Debug\net9.0\ref\InventoryWeb.dll
 D:\ASPNetProjects\Inventory\InventoryWeb\obj\Debug\net9.0\compressed\h1uagl3gfn-4qf3cun8lz.gz
+D:\ASPNetProjects\Inventory\InventoryWeb\obj\Debug\net9.0\InventoryWeb.sourcelink.json

@@ -96,3 +96,4 @@ D:\ASPNetProjects\Inventory\InventoryApiTest\obj\Debug\net9.0\refint\InventoryAp
 D:\ASPNetProjects\Inventory\InventoryApiTest\obj\Debug\net9.0\InventoryApiTest.pdb
 D:\ASPNetProjects\Inventory\InventoryApiTest\obj\Debug\net9.0\InventoryApiTest.genruntimeconfig.cache
 D:\ASPNetProjects\Inventory\InventoryApiTest\obj\Debug\net9.0\ref\InventoryApiTest.dll
+D:\ASPNetProjects\Inventory\InventoryApiTest\obj\Debug\net9.0\InventoryApiTest.sourcelink.json

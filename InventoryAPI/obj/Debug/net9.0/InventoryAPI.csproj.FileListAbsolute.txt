@@ -179,3 +179,4 @@ D:\ASPNetProjects\Inventory\InventoryAPI\obj\Debug\net9.0\refint\InventoryAPI.dl
 D:\ASPNetProjects\Inventory\InventoryAPI\obj\Debug\net9.0\InventoryAPI.pdb
 D:\ASPNetProjects\Inventory\InventoryAPI\obj\Debug\net9.0\InventoryAPI.genruntimeconfig.cache
 D:\ASPNetProjects\Inventory\InventoryAPI\obj\Debug\net9.0\ref\InventoryAPI.dll
+D:\ASPNetProjects\Inventory\InventoryAPI\obj\Debug\net9.0\InventoryAPI.sourcelink.json

@@ -15,3 +15,4 @@ D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\refint\InventoryData.
 D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.pdb
 D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.genruntimeconfig.cache
 D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\ref\InventoryData.dll
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.sourcelink.json

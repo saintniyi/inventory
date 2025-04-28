@@ -13,3 +13,4 @@ D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.dll
 D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\refint\InventoryShared.dll
 D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.pdb
 D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\ref\InventoryShared.dll
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.sourcelink.json

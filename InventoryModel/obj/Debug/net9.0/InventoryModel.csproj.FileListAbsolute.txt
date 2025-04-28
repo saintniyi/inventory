@@ -10,3 +10,4 @@ D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.dll
 D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\refint\InventoryModel.dll
 D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.pdb
 D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\ref\InventoryModel.dll
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.sourcelink.json
