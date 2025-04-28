@@ -1,0 +1,12 @@
+D:\ASPNetProjects\Inventory\InventoryModel\bin\Debug\net9.0\InventoryModel.deps.json
+D:\ASPNetProjects\Inventory\InventoryModel\bin\Debug\net9.0\InventoryModel.dll
+D:\ASPNetProjects\Inventory\InventoryModel\bin\Debug\net9.0\InventoryModel.pdb
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.csproj.AssemblyReference.cache
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.AssemblyInfoInputs.cache
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.AssemblyInfo.cs
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.csproj.CoreCompileInputs.cache
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.dll
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\refint\InventoryModel.dll
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\InventoryModel.pdb
+D:\ASPNetProjects\Inventory\InventoryModel\obj\Debug\net9.0\ref\InventoryModel.dll

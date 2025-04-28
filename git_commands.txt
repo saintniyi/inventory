@@ -1,0 +1,18 @@
+…or create a new repository on the command line
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/saintniyi/inventory.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/saintniyi/inventory.git
+git branch -M main
+git push -u origin main
+
+
+Description / About
+===================
+A multi-project ASP.NET Core template for a RESTful API-based MVC Web App, built with Products and Suppliers models. It follows the Unit of Work pattern and Separation of Concerns architecture across projects like InventoryModel, InventoryData, InventoryAPI, InventoryShared, and InventoryWeb.

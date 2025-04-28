@@ -1,0 +1,15 @@
+D:\ASPNetProjects\Inventory\InventoryShared\bin\Debug\net9.0\InventoryShared.deps.json
+D:\ASPNetProjects\Inventory\InventoryShared\bin\Debug\net9.0\InventoryShared.dll
+D:\ASPNetProjects\Inventory\InventoryShared\bin\Debug\net9.0\InventoryShared.pdb
+D:\ASPNetProjects\Inventory\InventoryShared\bin\Debug\net9.0\InventoryModel.dll
+D:\ASPNetProjects\Inventory\InventoryShared\bin\Debug\net9.0\InventoryModel.pdb
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.csproj.AssemblyReference.cache
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.AssemblyInfoInputs.cache
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.AssemblyInfo.cs
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.csproj.CoreCompileInputs.cache
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\Inventor.592F6772.Up2Date
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.dll
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\refint\InventoryShared.dll
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\InventoryShared.pdb
+D:\ASPNetProjects\Inventory\InventoryShared\obj\Debug\net9.0\ref\InventoryShared.dll

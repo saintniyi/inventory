@@ -1,0 +1,17 @@
+D:\ASPNetProjects\Inventory\InventoryData\bin\Debug\net9.0\InventoryData.deps.json
+D:\ASPNetProjects\Inventory\InventoryData\bin\Debug\net9.0\InventoryData.runtimeconfig.json
+D:\ASPNetProjects\Inventory\InventoryData\bin\Debug\net9.0\InventoryData.dll
+D:\ASPNetProjects\Inventory\InventoryData\bin\Debug\net9.0\InventoryData.pdb
+D:\ASPNetProjects\Inventory\InventoryData\bin\Debug\net9.0\InventoryModel.dll
+D:\ASPNetProjects\Inventory\InventoryData\bin\Debug\net9.0\InventoryModel.pdb
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.csproj.AssemblyReference.cache
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.AssemblyInfoInputs.cache
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.AssemblyInfo.cs
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.csproj.CoreCompileInputs.cache
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\Inventor.70658171.Up2Date
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.dll
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\refint\InventoryData.dll
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.pdb
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\InventoryData.genruntimeconfig.cache
+D:\ASPNetProjects\Inventory\InventoryData\obj\Debug\net9.0\ref\InventoryData.dll
