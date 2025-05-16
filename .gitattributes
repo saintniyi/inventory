@@ -1,0 +1,39 @@
+# Ensure all files use normalized line endings
+* text=auto
+
+# Enforce CRLF for Windows development (optional, remove if cross-platform)
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.sln text eol=crlf
+*.config text eol=crlf
+*.xml text eol=crlf
+*.json text eol=crlf
+
+# Improve diffing for C# source code
+*.cs diff=csharp
+
+# Improve diff for common config and markup files
+*.cshtml diff=html
+*.aspx diff=html
+*.ascx diff=html
+*.html diff=html
+*.css diff=css
+*.js diff=javascript
+
+# Treat PowerShell and shell scripts appropriately
+*.ps1 text eol=crlf
+*.sh text eol=lf
+
+# Don't export user secrets or local settings
+secrets.json export-ignore
+appsettings.Development.json export-ignore
+
+# Treat markdown files as text
+*.md text
+
+# Images (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary

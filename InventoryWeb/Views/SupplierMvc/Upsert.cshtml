@@ -1,0 +1,61 @@
+﻿@model InventoryDto.SupplierWriteDto
+
+@{
+    ViewData["Title"] = "Create or Edit Supplier";
+    var isEdit = Context.Request.Query.ContainsKey("id");
+}
+
+<h2>@(isEdit ? "Edit Supplier" : "Create Supplier")</h2>
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            @if (isEdit)
+            {
+                <input type="hidden" name="id" value="@Context.Request.Query["id"]" />
+            }
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Phone" class="form-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+
+            <div class="d-flex justify-content-between">
+                <a asp-action="Index" asp-controller="SupplierMvc" class="btn btn-secondary">Back to List</a>
+                <button type="submit" class="btn btn-primary" asp-controller="SupplierMvc" asp-action="Upsert" >
+                    @(isEdit ? "Update" : "Save")
+                </button>
+            </div>
+
+            @* <div class="d-flex justify-content-end gap-4">
+                <a asp-action="Index" asp-controller="SupplierMvc" class="btn btn-secondary">Back to List</a>
+                @if (isEdit)
+                {
+                    <button type="submit" asp-controller="SupplierMvc" asp-action = "Upsert" class="btn btn-primary">Save</button>
+                }
+                else
+                {
+                    <button type="submit" asp-controller="SupplierMvc" asp-action="Upsert" class="btn btn-primary">Update</button>
+                }
+            </div> *@
+
+        </form>
+    </div>
+</div>
+
+@* @section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+} *@

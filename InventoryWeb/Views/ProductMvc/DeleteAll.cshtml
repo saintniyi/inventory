@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Delete All Products";
+}
+
+<h2 class="text-danger">Delete All Products</h2>
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-body">
+        <h4 class="mb-3">Are you sure you want to delete all products?</h4>
+
+        <div class="d-flex justify-content-between">
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            <button class="btn btn-danger" onclick="deleteAllProducts()">Delete All</button>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function deleteAllProducts() {
+            Swal.fire({
+                title: 'Are you sure?',
+                text: "This action will delete all products. This cannot be undone.",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#d33',
+                cancelButtonColor: '#3085d6',
+                confirmButtonText: 'Yes, delete all!'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    $.ajax({
+                        url: '/ProductMvc/DeleteAll',
+                        type: 'DELETE',
+                        success: function (data) {
+                            if (data.success) {
+                                toastr.success(data.message);
+                                window.location.href = '/ProductMvc/Index'; // Redirect to the index page
+                            } else {
+                                toastr.error(data.message);
+                            }
+                        },
+                        error: function () {
+                            toastr.error('Something went wrong.');
+                        }
+                    });
+                }
+            });
+        }
+    </script>
+}

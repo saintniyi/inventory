@@ -1,0 +1,130 @@
+﻿<!--*******************************1st Working Interface Below**********************************-->
+<!--*******************************1st Working Interface Below**********************************-->
+<!--*******************************1st Working Interface Below**********************************-->
+@model InventoryDto.ProductReadDto
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h2 class="text-danger">Delete Product</h2>
+<input asp-for="Id" hidden />
+
+<div class="card shadow border-0 mt-4">
+    <div class="card-body">
+
+        <div class="mb-3">
+            <strong>Name:</strong> <span class="text-info">@Model.Name</span>
+        </div>
+        <div class="mb-3">
+            <strong>Category:</strong> <span class="text-info">@Model.Category</span>
+        </div>
+        <div class="mb-3">
+            <strong>Price:</strong> <span class="text-info">@Model.Price</span>
+        </div>
+        <div class="mb-3">
+            <strong>Stock Quantity:</strong> <span class="text-info">@Model.StockQty</span>
+        </div>
+        <div class="mb-3">
+            <strong>Supplier:</strong> <span class="text-info">@Model.Supplier.Name</span>
+        </div>
+
+        <!-- Display Product Image if it exists -->
+        @if (Model.ProductImage != null)
+        {
+            <div class="mb-3">
+                <img src="data:image/png;base64,@Convert.ToBase64String(Model.ProductImage)" class="img-thumbnail" style="max-height:200px;" />
+            </div>
+        }
+
+        <div class="d-flex justify-content-end gap-5">
+            <a asp-action="IndexServer" class="btn btn-secondary">Back to List</a>
+
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteModal">
+                Delete
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Confirm Deletion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this product? This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+
+                <!-- The form for deletion -->
+                <form asp-action="DeleteServerConfirmed" asp-controller="ProductMvc" method="post" id="deleteForm">
+                    @Html.AntiForgeryToken()
+                    <input type="hidden" name="id" value="@Model.Id" />
+                    <button type="submit" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!--*******************************2nd Working Interface Below**********************************-->
+<!--*******************************2nd Working Interface Below**********************************-->
+<!--*******************************2nd Working Interface Below**********************************-->
+
+
+@* @model InventoryDto.ProductReadDto
+
+@{
+    ViewData["Title"] = "Delete Product";
+}
+
+<h2 class="text-danger">Delete Product</h2>
+
+<div class="alert alert-warning">
+    Are you sure you want to delete the product: <strong>@Model.Name</strong>?
+</div>
+<div class="card shadow border-0 mt-4">
+    <div class="card-body">
+
+        <div class="mb-3">
+            <strong>Name:</strong> <span class="text-info">@Model.Name</span>
+        </div>
+        <div class="mb-3">
+            <strong>Category:</strong> <span class="text-info">@Model.Category</span>
+        </div>
+        <div class="mb-3">
+            <strong>Price:</strong> <span class="text-info">@Model.Price</span>
+        </div>
+        <div class="mb-3">
+            <strong>Stock Quantity:</strong> <span class="text-info">@Model.StockQty</span>
+        </div>
+        <div class="mb-3">
+            <strong>Supplier:</strong> <span class="text-info">@Model.Supplier.Name</span>
+        </div>
+
+        <!-- Display Product Image if it exists -->
+        @if (Model.ProductImage != null)
+        {
+            <div class="mb-3">
+                <img src="data:image/png;base64,@Convert.ToBase64String(Model.ProductImage)" class="img-thumbnail" style="max-height:200px;" />
+            </div>
+        }
+    </div>
+
+    <form asp-action="DeleteServerConfirmed" method="post">
+        <input type="hidden" name="id" value="@Model.Id" />
+
+        <div class="d-flex justify-content-end gap-5 mb-4 mx-4">
+            <a asp-action="IndexServer" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="btn btn-danger">Delete</button>
+        </div>
+    </form>
+</div> *@
